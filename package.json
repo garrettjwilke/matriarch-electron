@@ -1,18 +1,18 @@
 {
-  "name": "ep133sampletool",
-  "productName": "EP-133 Sample Tool",
-  "version": "1.2.0",
-  "description": "EP-133 Sample Tool - 1.2.0",
+  "name": "matriarcheditor",
+  "productName": "matriarch editor",
+  "version": "1.0.0",
+  "description": "matriarch editor",
   "main": "main.js",
   "scripts": {
     "start": "electron . --ozone-platform=wayland",
     "package": "electron-builder"
   },
   "build": {
-    "appId": "com.ep133.sampletool",
+    "appId": "com.moog.matriarcheditor",
     "linux": {
       "category": "tool",
-      "executableName": "ep133sampletool",
+      "executableName": "matriarcheditor",
       "artifactName": "${productName}-${version}.${ext}"
     },
     "win": {
@@ -22,11 +22,9 @@
     }
   },
   "keywords": [
-    "teenage",
-    "engineering",
-    "ep-133",
-    "sample",
-    "tool"
+    "moog",
+    "matriarch",
+    "editor"
   ],
   "author": "homeless",
   "devDependencies": {

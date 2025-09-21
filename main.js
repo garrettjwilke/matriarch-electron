@@ -7,7 +7,7 @@ function createWindow () {
   const mainWindow = new BrowserWindow({
     width: 1200,
     height: 800,
-    title: "EP-133 Sample Tool",
+    title: "matriarch editor",
     icon: path.join(__dirname + 'icon.ico'),
     webPreferences: {
       //devTools: false,
